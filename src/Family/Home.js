@@ -80,7 +80,7 @@ const mapStateToProps = function(state){ //Attach redux state to Props
     }
   }
   
-  const mapDispatchToProps = function (dispatch) { //Attach the reduc dispatch to props
+  const mapDispatchToProps = function (dispatch) { //Attach the reduc dispatch to props.
     return {
         reduxDispatch:dispatch
     }
