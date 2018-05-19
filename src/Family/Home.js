@@ -74,7 +74,7 @@ class Home extends Component{
     }
 }
 
-const mapStateToProps = function(state){ //Attach redux state to Props.
+const mapStateToProps = function(state){ //Attach redux state to Props..
     return {
       reduxState: state,
     }
