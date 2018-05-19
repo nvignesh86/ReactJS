@@ -74,13 +74,13 @@ class Home extends Component{
     }
 }
 
-const mapStateToProps = function(state){
+const mapStateToProps = function(state){ //Attach redux state to Props
     return {
       reduxState: state,
     }
   }
   
-  const mapDispatchToProps = function (dispatch) {
+  const mapDispatchToProps = function (dispatch) { //Attach the reduc dispatch to props
     return {
         reduxDispatch:dispatch
     }
